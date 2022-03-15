@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // window.signup = SessionApiUtil.signup
   // window.login = SessionApiUtil.login
   // window.logout = SessionApiUtil.logout
+  window.store = store;
 
 
 });

@@ -17,6 +17,10 @@ path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
             presets: ['@babel/env', '@babel/react']
           }
         },
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        loader: 'file-loader',
       }
     ]
   },
