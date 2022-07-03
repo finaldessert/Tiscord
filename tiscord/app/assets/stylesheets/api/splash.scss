@@ -1,41 +1,9 @@
 #splash {
     height: 100%;
-    display: block;
+    display: grid;
     background-color: #404eed;
 }
 
-#logo {
-    height: 30px;
-    width: 40px;
-}
-
-#splash-body-image-container {
-    position: absolute;
-}
-
-#clouds {
-    position: absolute;
-    left: 50%;
-}
-
-#homeleft {
-    position: absolute;
-    left: 50%;
-    display: block;
-    height: auto;
-    width: auto;
-}
-
 #homeright {
-    position: absolute;
-    left: 50%;
-    margin-left: 370px;
-}
-
-// #hero-container {
-//     position: absolute;
-// }
-
-#splash-head {
-    display: flex;
+    
 }

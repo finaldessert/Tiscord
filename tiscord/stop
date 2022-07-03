@@ -1,0 +1,51 @@
+Script started on 2022-07-03 13:41:26-04:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="226" LINES="16"]
+]0;finaldessert@DESKTOP-NM4LRDR: ~/my_projects/tiscord/tiscord[01;36mfinaldessert[00m:[01;34m~/my_projects/tiscord/tiscord[00m$ node start
+]0;finaldessert@DESKTOP-NM4LRDR: ~/my_projects/tiscord/tiscord[01;36mfinaldessert[00m:[01;34m~/my_projects/tiscord/tiscord[00m$ node stop
+]0;finaldessert@DESKTOP-NM4LRDR: ~/my_projects/tiscord/tiscord[01;36mfinaldessert[00m:[01;34m~/my_projects/tiscord/tiscord[00m$ npm run start
+
+> tiscord@1.0.0 start /home/finaldessert/my_projects/tiscord/tiscord
+> webpack --mode=development --watch
+
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[33m[compared for emit][39m[22m (name: main) 1 related asset
+runtime modules 1.98 KiB 6 modules
+modules by path [1m./node_modules/[39m[22m 1.18 MiB 67 modules
+modules by path [1m./frontend/[39m[22m 24.9 KiB
+  modules by path [1m./frontend/components/[39m[22m 18.4 KiB 11 modules
+  modules by path [1m./frontend/reducers/*.js[39m[22m 2.47 KiB
+    [1m./frontend/reducers/rootReducer.js[39m[22m 332 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./frontend/reducers/session_reducer.js[39m[22m 610 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 4 modules
+  modules by path [1m./frontend/util/[39m[22m 1.65 KiB
+    [1m./frontend/util/route_util.jsx[39m[22m 1.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./frontend/util/session_api_util.js[39m[22m 410 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./frontend/tiscord.jsx[39m[22m 524 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./frontend/store/store.js[39m[22m 435 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./frontend/actions/sessions_actions.js[39m[22m 1.38 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 2976 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.85 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 206 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.4 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 243 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.38 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 166 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.38 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 140 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 M
