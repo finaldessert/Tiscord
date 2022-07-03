@@ -1,9 +1,25 @@
 #splash {
     height: 100%;
     display: grid;
+    grid-template-columns: auto, auto, auto, auto;
+    grid-template-rows: 5% 100% auto;
     background-color: #404eed;
 }
 
-#homeright {
-    
+#splash-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+#hero-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#clouds {
+    width: 100%;
+}
+

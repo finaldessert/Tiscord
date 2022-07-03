@@ -48,4 +48,208 @@ runtime modules 1.98 KiB 6 modules
 [1m./frontend/components/splash/splash.jsx[39m[22m 5.38 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
 webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 140 ms
 assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
-asset [1m[32m./bundle.js[39m[22m 1.29 M
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.35 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 134 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.33 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 172 ms
+assets by status 1.42 MiB [1m[32m[cached][39m[22m 4 assets
+cached modules 1.2 MiB (javascript) 1.98 KiB (runtime) [1m[32m[cached][39m[22m 94 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.33 KiB [1m[33m[built][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 92 ms
+asset [1m[32m./bundle.js[39m[22m 1.28 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 84 modules
+runtime modules 1.13 KiB 5 modules
+javascript modules 519 bytes
+  [1m./frontend/components/splash/splash_container.jsx[39m[22m 480 bytes [1m[33m[code generated][39m[22m
+  [1m./frontend/components/splash/splash.jsx[39m[22m 39 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./frontend/components/splash/splash.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/finaldessert/my_projects/tiscord/tiscord/frontend/components/splash/splash.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (41:12)
+
+[0m [90m 39 |[39m                         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 40 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m    |[39m             [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m         )[0m
+[0m [90m 43 |[39m     }[0m
+[0m [90m 44 |[39m }[0m
+    at Object._raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:476:17)
+    at Object.raiseWithData (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:469:17)
+    at Object.raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:430:17)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7781:18)
+    at Object.jsxParseElement (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7793:17)
+    at Object.parseExprAtom (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7807:19)
+    at Object.parseExprSubscripts (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:12149:23)
+    at Object.parseUpdate (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:12129:21)
+    at Object.parseMaybeUnary (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:12104:23)
+    at Object.parseMaybeUnaryOrPrivate (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:11901:61)
+ @ ./frontend/components/splash/splash_container.jsx 2:0-30 19:60-66
+ @ ./frontend/components/App.jsx 5:0-56 12:15-30
+ @ ./frontend/components/root.jsx 3:0-24 10:89-92
+ @ ./frontend/tiscord.jsx 4:0-37 8:52-56
+
+webpack 5.70.0 compiled with [1m[31m1 error[39m[22m in 441 ms
+assets by status 1.28 MiB [1m[32m[cached][39m[22m 1 asset
+cached modules 1.2 MiB (javascript) 1.13 KiB (runtime) [1m[32m[cached][39m[22m 90 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 39 bytes [1m[33m[built][39m[22m [1m[31m[1 error][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./frontend/components/splash/splash.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/finaldessert/my_projects/tiscord/tiscord/frontend/components/splash/splash.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (41:12)
+
+[0m [90m 39 |[39m                         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 40 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m    |[39m             [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m         )[0m
+[0m [90m 43 |[39m     }[0m
+[0m [90m 44 |[39m }[0m
+    at Object._raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:476:17)
+    at Object.raiseWithData (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:469:17)
+    at Object.raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:430:17)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7781:18)
+    at Object.jsxParseElement (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7793:17)
+    at Object.parseExprAtom (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7807:19)
+    at Object.parseExprSubscripts (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:12149:23)
+    at Object.parseUpdate (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:12129:21)
+    at Object.parseMaybeUnary (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:12104:23)
+    at Object.parseMaybeUnaryOrPrivate (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:11901:61)
+ @ ./frontend/components/splash/splash_container.jsx 2:0-30 19:60-66
+ @ ./frontend/components/App.jsx 5:0-56 12:15-30
+ @ ./frontend/components/root.jsx 3:0-24 10:89-92
+ @ ./frontend/tiscord.jsx 4:0-37 8:52-56
+
+webpack 5.70.0 compiled with [1m[31m1 error[39m[22m in 41 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 87 modules
+runtime modules 1.98 KiB 6 modules
+javascript modules 5.71 KiB
+  [1m./frontend/components/splash/splash_container.jsx[39m[22m 480 bytes [1m[33m[code generated][39m[22m
+  [1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 175 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 136 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 165 ms
+asset [1m[32m./bundle.js[39m[22m 1.28 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 84 modules
+runtime modules 1.13 KiB 5 modules
+javascript modules 519 bytes
+  [1m./frontend/components/splash/splash_container.jsx[39m[22m 480 bytes [1m[33m[code generated][39m[22m
+  [1m./frontend/components/splash/splash.jsx[39m[22m 39 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./frontend/components/splash/splash.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/finaldessert/my_projects/tiscord/tiscord/frontend/components/splash/splash.jsx: Unexpected token, expected "jsxTagEnd" (40:25)
+
+[0m [90m 38 |[39m                             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 39 |[39m                         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 40 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m)[0m
+[0m [90m    |[39m                          [31m[1m^[22m[39m[0m
+[0m [90m 41 |[39m     }[0m
+[0m [90m 42 |[39m }[0m
+[0m [90m 43 |[39m[0m
+    at Object._raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:476:17)
+    at Object.raiseWithData (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:469:17)
+    at Object.raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:430:17)
+    at Object.unexpected (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:3789:16)
+    at Object.expect (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:3773:28)
+    at Object.jsxParseClosingElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7703:10)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7722:37)
+    at Object.jsxParseElement (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7793:17)
+    at Object.parseExprAtom (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7807:19)
+    at Object.parseExprSubscripts (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:12149:23)
+ @ ./frontend/components/splash/splash_container.jsx 2:0-30 19:60-66
+ @ ./frontend/components/App.jsx 5:0-56 12:15-30
+ @ ./frontend/components/root.jsx 3:0-24 10:89-92
+ @ ./frontend/tiscord.jsx 4:0-37 8:52-56
+
+webpack 5.70.0 compiled with [1m[31m1 error[39m[22m in 58 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 87 modules
+runtime modules 1.98 KiB 6 modules
+javascript modules 5.71 KiB
+  [1m./frontend/components/splash/splash_container.jsx[39m[22m 480 bytes [1m[33m[code generated][39m[22m
+  [1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 133 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 112 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 117 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 120 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 120 ms
+assets by status 1.42 MiB [1m[32m[cached][39m[22m 4 assets
+cached modules 1.2 MiB (javascript) 1.98 KiB (runtime) [1m[32m[cached][39m[22m 94 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 68 ms
+assets by status 1.42 MiB [1m[32m[cached][39m[22m 4 assets
+cached modules 1.2 MiB (javascript) 1.98 KiB (runtime) [1m[32m[cached][39m[22m 94 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.25 KiB [1m[33m[built][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 87 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 4.96 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 430 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.01 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 127 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.03 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 129 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.05 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 109 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.05 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 118 ms
+assets by status 133 KiB [1m
