@@ -1296,4 +1296,125 @@ cached modules 1.2 MiB (javascript) 1.13 KiB (runtime) [1m[32m[cached][39m[2
 [1m./frontend/components/splash/splash.jsx[39m[22m 39 bytes [1m[33m[built][39m[22m [1m[31m[1 error][39m[22m
 
 [1m[31mERROR[39m[22m in [1m./frontend/components/splash/splash.jsx[39m[22m
-Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/finaldessert/my_projects/tiscord/tiscord/frontend/components/splash/splash.jsx: Unexpected token (38:61)
+
+[0m [90m 36 |[39m                             [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33ma[39m href[33m=[39m[32m"google.com"[39m[33m>[39mmy [33mPortfolio[39m[33m<[39m[33m/[39m[33ma[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 37 |[39m                         [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 38 |[39m                         [33m<[39m[33mbutton[39m id[33m=[39m[32m'landingbuttontype='[39mbutton[32m'>Login</button>[39m[0m
+[0m [90m    |[39m                                                              [31m[1m^[22m[39m[0m
+[0m [90m 39 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 40 |[39m                     [33m<[39m[33mdiv[39m id[33m=[39m[32m'hero-container'[39m[33m>[39m[0m
+[0m [90m 41 |[39m                         [33m<[39m[33mdiv[39m id[33m=[39m[32m'splash-body-container'[39m[33m>[39m[0m
+    at Object._raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:476:17)
+    at Object.raiseWithData (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:469:17)
+    at Object.raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:430:17)
+    at Object.unexpected (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:3789:16)
+    at Object.jsxParseIdentifier (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7559:12)
+    at Object.jsxParseNamespacedName (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7569:23)
+    at Object.jsxParseAttribute (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7664:22)
+    at Object.jsxParseOpeningElementAfterName (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7685:28)
+    at Object.jsxParseOpeningElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7678:17)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7710:33)
+ @ ./frontend/components/splash/splash_container.jsx 2:0-30 19:60-66
+ @ ./frontend/components/App.jsx 5:0-56 12:15-30
+ @ ./frontend/components/root.jsx 3:0-24 10:89-92
+ @ ./frontend/tiscord.jsx 4:0-37 8:52-56
+
+webpack 5.70.0 compiled with [1m[31m1 error[39m[22m in 17 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 87 modules
+runtime modules 1.98 KiB 6 modules
+javascript modules 6.49 KiB
+  [1m./frontend/components/splash/splash_container.jsx[39m[22m 480 bytes [1m[33m[code generated][39m[22m
+  [1m./frontend/components/splash/splash.jsx[39m[22m 6.02 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 130 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 88 modules
+runtime modules 1.98 KiB 6 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.74 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 646 ms
+asset [1m[32m./bundle.js[39m[22m 1.28 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 84 modules
+runtime modules 1.13 KiB 5 modules
+javascript modules 519 bytes
+  [1m./frontend/components/splash/splash_container.jsx[39m[22m 480 bytes [1m[33m[code generated][39m[22m
+  [1m./frontend/components/splash/splash.jsx[39m[22m 39 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./frontend/components/splash/splash.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/finaldessert/my_projects/tiscord/tiscord/frontend/components/splash/splash.jsx: Expected corresponding JSX closing tag for <h1>. (42:79)
+
+[0m [90m 40 |[39m                     [33m<[39m[33mdiv[39m id[33m=[39m[32m'hero-container'[39m[33m>[39m[0m
+[0m [90m 41 |[39m                         [33m<[39m[33mdiv[39m id[33m=[39m[32m'splash-body-container'[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 42 |[39m                                 [33m<[39m[33mh1[39m id[33m=[39m[32m'splash-body-header'[39m[33m>[39m [33mImagine[39m a place[33m...[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m    |[39m                                                                                [31m[1m^[22m[39m[0m
+[0m [90m 43 |[39m                                 [33m<[39m[33mdiv[39m id[33m=[39m[32m'splash-body-body'[39m[33m>[39m [33m...[39mwhere you can belong to a school club[33m,[39m a gaming group[33m,[39m or a worldwide art community[33m.[39m [33mWhere[39m just you and a handful [36mof[39m friends can spend time together[33m.[39m [33mA[39m place that makes it easy to talk every day and hang out more often[33m.[39m [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 44 |[39m                         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 45 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:476:17)
+    at Object.raiseWithData (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:469:17)
+    at Object.raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:430:17)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7763:16)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7726:32)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7726:32)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7726:32)
+    at Object.jsxParseElement (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7793:17)
+    at Object.parseExprAtom (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7807:19)
+    at Object.parseExprSubscripts (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:12149:23)
+ @ ./frontend/components/splash/splash_container.jsx 2:0-30 19:60-66
+ @ ./frontend/components/App.jsx 5:0-56 12:15-30
+ @ ./frontend/components/root.jsx 3:0-24 10:89-92
+ @ ./frontend/tiscord.jsx 4:0-37 8:52-56
+
+webpack 5.70.0 compiled with [1m[31m1 error[39m[22m in 132 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bundle.js[39m[22m 1.29 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 87 modules
+runtime modules 1.98 KiB 6 modules
+javascript modules 6.21 KiB
+  [1m./frontend/components/splash/splash_container.jsx[39m[22m 480 bytes [1m[33m[code generated][39m[22m
+  [1m./frontend/components/splash/splash.jsx[39m[22m 5.74 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 129 ms
+assets by status 1.42 MiB [1m[32m[cached][39m[22m 4 assets
+cached modules 1.2 MiB (javascript) 1.98 KiB (runtime) [1m[32m[cached][39m[22m 94 modules
+[1m./frontend/components/splash/splash.jsx[39m[22m 5.74 KiB [1m[33m[built][39m[22m
+webpack 5.70.0 compiled [1m[32msuccessfully[39m[22m in 88 ms
+asset [1m[32m./bundle.js[39m[22m 1.28 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+cached modules 1.2 MiB [1m[32m[cached][39m[22m 84 modules
+runtime modules 1.13 KiB 5 modules
+javascript modules 519 bytes
+  [1m./frontend/components/splash/splash_container.jsx[39m[22m 480 bytes [1m[33m[code generated][39m[22m
+  [1m./frontend/components/splash/splash.jsx[39m[22m 39 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./frontend/components/splash/splash.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/finaldessert/my_projects/tiscord/tiscord/frontend/components/splash/splash.jsx: Expected corresponding JSX closing tag for <body>. (43:284)
+
+[0m [90m 41 |[39m                         [33m<[39m[33mdiv[39m id[33m=[39m[32m'splash-body-container'[39m[33m>[39m[0m
+[0m [90m 42 |[39m                                 [33m<[39m[33mh1[39m id[33m=[39m[32m'splash-body-header'[39m[33m>[39m [33mImagine[39m a place[33m...[39m[33m<[39m[33m/[39m[33mh1[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 43 |[39m                                 [33m<[39m[33mbody[39m id[33m=[39m[32m'splash-body-body'[39m[33m>[39m [33m...[39mwhere you can belong to a school club[33m,[39m a gaming group[33m,[39m or a worldwide art community[33m.[39m [33mWhere[39m just you and a handful [36mof[39m friends can spend time together[33m.[39m [33mA[39m place that makes it easy to talk every day and hang out more often[33m.[39m [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m    |[39m                                                                                                                                                                                                                                                                                             [31m[1m^[22m[39m[0m
+[0m [90m 44 |[39m                         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 45 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 46 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:476:17)
+    at Object.raiseWithData (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:469:17)
+    at Object.raise (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:430:17)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7763:16)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7726:32)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7726:32)
+    at Object.jsxParseElementAt (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7726:32)
+    at Object.jsxParseElement (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7793:17)
+    at Object.parseExprAtom (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:7807:19)
+    at Object.parseExprSubscripts (/home/finaldessert/my_projects/tiscord/tiscord/node_modules/@babel/parser/lib/index.js:12149:23)
+ @ ./frontend/components/splash/splash_container.jsx 2:0-30 19:60-66
+ @ ./frontend/components/App.jsx 5:0-56 12:15-30
+ @ ./frontend/components/root.jsx 3:0-24 10:89-92
+ @ ./frontend/tiscord.jsx 4:0-37 8:52-56
+
+webpack 5.70.0 compiled with [1m[31m1 error[39m[22m in 75 ms
+assets by status 133 KiB [1m[32m[cached][39m[22m 3 assets
+asset [1m[32m./bund
