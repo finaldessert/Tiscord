@@ -22,17 +22,27 @@ class Splash extends React.Component {
         return(
             <div id='splash'>
                     <div id='splash-head'>
-                        <img id='logo' src='' alt="logo" />
-                        <Link id="logo-link" to='/'> 
-                            <i className="test"></i>
-                            <h2>Tiscord</h2>
-                        </Link>
+                            <div id='logo'>
+                                <img id='logopic' src='' alt="logo" />
+                                <Link id="logo-link" to='/'> 
+                                    <i className="test"></i>
+                                    <h2>Tiscord</h2>
+                                </Link>
+                            </div>
+                        <ul id='nav'>
+                            <li><a href="google.com">Safety</a></li>
+                            <li><a href="google.com">Support</a></li>
+                            <li><a href="google.com">Blog</a></li>
+                            <li><a href="google.com">my Portfolio</a></li>
+                        </ul>
+                        <button id='landingbutton' type='button'>Login</button>
                     </div>
                     <div id='hero-container'>
                         <div id='splash-body-container'>
                                 <div id='splash-body-header'> Imagine a place...</div>
                                 <div id='splash-body-body'> ...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often. </div>
-                                <img src={clouds} id="clouds"/>
+                        </div>
+                        <div id='background-container'>
                                 <img src={homeleft} id='homeleft'/>
                                 <img src={homeright} id='homeright'/>
                         </div>
