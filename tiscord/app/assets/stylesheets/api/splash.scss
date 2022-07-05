@@ -1,5 +1,6 @@
+
 #splash {
-    background-color: #404eed;
+    background-color: #37393F;
     display: grid;
     grid-template-rows: 80px 1fr 100px;
     min-height: 100vh;
@@ -12,6 +13,7 @@
 }
 
 #splash-head {
+    background-color: #2E3037;
     display: flex;
     grid-area: head;
     justify-content: space-around;
@@ -27,7 +29,7 @@ li a{
     padding-left: 30px;
     display: inline-block;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 10px;
     text-align: center;
     color: white;
@@ -40,6 +42,13 @@ li a{
     padding: 20px;
 }
 
+#logo-link {
+    padding-top: 12px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    color: white;
+}
+
 #landingbutton {
     background-color: white;
     font-size: 14px;
@@ -50,10 +59,12 @@ li a{
     height: 40px;
     position: relative; 
     top: 20px;
-    font-family: 'whitneysemibold', Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
-#splash-body-container {
+#hero-container {
+    
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
     display: grid;
@@ -61,21 +72,19 @@ li a{
     grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px;
 }
 
-#hero-container {
-    grid-area: hero;
-    background-image: url("app/assets/stylesheets/api/world.jpg");
-}
-
 #splash-body-header {
+    grid-row: 4 / 7;
     grid-column: 6 / 11;
-    grid-row: 2 / 3;
     font-size: 56px;
-    color: white;   
+    color: white; 
+    font-family: 'Changa One', cursive;  
 }
 
 #splash-body-body {
     color: white;
     font-size: 20px;
-    grid-column: 5 / 11;
-    grid-row:  5 / 7;
+    grid-column: 5 / 12;
+    grid-row:  8 / 11;
+    line-height: 2;
 }
+

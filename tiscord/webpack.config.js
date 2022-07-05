@@ -19,7 +19,7 @@ path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
         },
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/i,
+        test: /\.(png|jpeg|gif|svg|jpg)$/i, //jp?eg previous
         loader: 'file-loader',
       }
     ]
