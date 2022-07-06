@@ -14,10 +14,10 @@ class Splash extends React.Component {
 
         
     render() {
-        let splashbutton;
+        let splashbutton; //by creating a JS object we can choose what renders depending on conditions we set
 
         if(!this.props.LoggedIn) {
-            splashbutton = <Link id="splash-button" to='/login'>Login</Link>
+            splashbutton = <Link id="landingbutton" to='/login'>Login</Link> 
         }
 
         return(
@@ -37,9 +37,7 @@ class Splash extends React.Component {
                             <li><a href="google.com">Blog</a></li>
                             <li><a href="google.com">my Portfolio</a></li>
                         </ul>
-                        <Link to='/login'>
-                            <button id='landingbutton' type='button'>Login</button>
-                        </Link>
+                        {splashbutton}
                     </div>
                     <div id='hero-container' >
                         <h1 id='splash-body-header' className='bg' > Imagine a place...</h1>

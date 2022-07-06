@@ -56,15 +56,14 @@ li a:hover {
 #landingbutton {
     background-color: white;
     font-size: 14px;
-    padding: 7px 16px;
+    padding-top: 13px;
     border-radius: 20px;
-    border: none;
     width: 65px;
-    height: 40px;
-    position: relative; 
-    top: 20px;
+    height: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    align-self: center;
+    text-align: center;
 }
 
 #landingbutton:hover {
