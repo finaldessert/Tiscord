@@ -21,8 +21,7 @@
 
 #nav {
     display: flex;
-    margin: 0;
-    padding-top: 20px;
+    align-items: center;
 }
 
 li a{
@@ -37,9 +36,14 @@ li a{
     font-weight: 550;
 }
 
+li a:hover {
+    text-decoration: underline;
+}
+
 #logo {
     display: flex;
-    padding: 20px;
+    align-items: center;
+    padding-bottom: 10px;
 }
 
 #logo-link {
@@ -63,13 +67,17 @@ li a{
     font-weight: 400;
 }
 
+#landingbutton:hover {
+    color: blue;
+}
+
 #hero-container {
     
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
     display: grid;
     grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
 }
 
 #splash-body-header {
@@ -83,8 +91,59 @@ li a{
 #splash-body-body {
     color: white;
     font-size: 20px;
-    grid-column: 5 / 12;
-    grid-row:  8 / 11;
+    grid-column: 4 / 12;
+    grid-row:  7 / 10;
     line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
+#contact-button {
+    background-color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 40px;
+    border: none;
+    width: 400px;
+    height: 65px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    grid-row: 11 / 13;
+    grid-column: 4 / 8;
+}
+
+#contact-button:hover {
+    color: blue;
+}
+
+#open-in-browser-button {
+    background-color: #23272A;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 40px;
+    border: none;
+    width: 400px;
+    height: 65px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    grid-row: 11 / 13;
+    grid-column: 8 / 12;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#open-in-browser-button:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bye {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 12px;
+}

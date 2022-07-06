@@ -20,9 +20,9 @@ class LoginUser extends React.Component {
 
     render(){
         return (
-            <div>
+            <div id="login-form">
                 <h1>Log In</h1>
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.handleSubmit} id="actual-form">
                     <label>Username
                         <input type="text" value={this.state.username} onChange={this.update('username')} />
                     </label>   
