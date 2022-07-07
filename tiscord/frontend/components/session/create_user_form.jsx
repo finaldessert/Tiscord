@@ -21,7 +21,7 @@ class CreateUser extends React.Component {
     render(){
         return (
             <div id="login-form">
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.handleSubmit} id='actual-register-form'>
                     <label>Username
                         <input type="text" value={this.state.username} onChange={this.update('username')} />
                     </label>
