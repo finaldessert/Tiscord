@@ -21,7 +21,7 @@ class LoginUser extends React.Component {
     render(){
         return (
             <div id="login-form">
-                <form onSubmit={this.handleSubmit} id="actual-form">
+                <form onSubmit={this.handleSubmit} id="login-actual-form">
                     <h1>Welcome Back!</h1>
                     <p>We're so excited to see you again!</p>
                     <label>EMAIL OR USERNAME

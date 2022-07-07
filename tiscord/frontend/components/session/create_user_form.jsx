@@ -20,8 +20,7 @@ class CreateUser extends React.Component {
 
     render(){
         return (
-            <div>
-                <h1>Sign Up</h1>
+            <div id="login-form">
                 <form onSubmit={this.handleSubmit}>
                     <label>Username
                         <input type="text" value={this.state.username} onChange={this.update('username')} />
