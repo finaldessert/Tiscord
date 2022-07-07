@@ -21,15 +21,16 @@ class LoginUser extends React.Component {
     render(){
         return (
             <div id="login-form">
-                <h1>Log In</h1>
                 <form onSubmit={this.handleSubmit} id="actual-form">
-                    <label>Username
+                    <h1>Welcome Back!</h1>
+                    <p>We're so excited to see you again!</p>
+                    <label>EMAIL OR USERNAME
                         <input type="text" value={this.state.username} onChange={this.update('username')} />
                     </label>   
-                    <label>Password
+                    <label>PASSWORD
                         <input type="password" value={this.state.password} onChange={this.update('password')}/>
                     </label>
-                    <button type="submit">Log In</button>        
+                    <input type="submit" value='Login' />        
                 </form>
             </div>
         );
