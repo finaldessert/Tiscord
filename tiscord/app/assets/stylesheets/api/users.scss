@@ -132,3 +132,17 @@ input[type = submit]:hover {
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+#demo-link {
+    margin-top: 18px;
+    margin-left: 48px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(12, 93, 170);
+}
+
+#demo-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -39,7 +39,8 @@ class CreateUser extends React.Component {
                         <input type="checkbox" id='terms-checkbox'/>
                         I have read and agreed to Tiscord's Terms of Services and Privacy Policy by Benny Lim
                     </div>
-                    <input type="submit" value='Continue'/>        
+                    <input type="submit" value='Continue'/>
+                    <div id='demo-link'>Click here for a demo login!</div>        
                 </form>
             </div>
         );
