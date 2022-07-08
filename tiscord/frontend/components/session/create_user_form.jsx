@@ -22,15 +22,16 @@ class CreateUser extends React.Component {
         return (
             <div id="login-form">
                 <form onSubmit={this.handleSubmit} id='actual-register-form'>
-                    <label>Username
+                    <h1>Create an account</h1>
+                    <h5>USERNAME
                         <input type="text" value={this.state.username} onChange={this.update('username')} />
-                    </label>
-                    <label>Email
+                    </h5>
+                    <h5>EMAIL                 
                         <input type="text" value={this.state.email} onChange={this.update('email')}/>
-                    </label>    
-                    <label>Password
+                    </h5>    
+                    <h5>PASSWORD
                         <input type="password" value={this.state.password} onChange={this.update('password')}/>
-                    </label>
+                    </h5>
                     <input type="submit" value='Continue'/>        
                 </form>
             </div>

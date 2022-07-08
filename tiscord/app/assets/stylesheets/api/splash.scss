@@ -53,6 +53,12 @@ li a:hover {
     color: white;
 }
 
+#button-container {
+    display: flex;
+    align-self: center;
+    text-align: center;
+}
+
 #landingbutton {
     background-color: white;
     font-size: 14px;
@@ -62,12 +68,32 @@ li a:hover {
     height: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    align-self: center;
-    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    // align-self: center;
+    // text-align: center;
 }
 
 #landingbutton:hover {
     color: blue;
+}
+
+#registerbutton {
+    background-color: #23272A;
+    font-size: 14px;
+    padding-top: 13px;
+    border-radius: 20px;
+    width: 65px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#registerbutton:hover {
+    background-color: rgb(88, 88, 88);
 }
 
 #hero-container {
