@@ -35,6 +35,10 @@ class CreateUser extends React.Component {
                     <h5>DATE OF BIRTH
                         <input type="date" />
                     </h5>
+                    <div id='terms-container'>
+                        <input type="checkbox" id='terms-checkbox'/>
+                        I have read and agreed to Tiscord's Terms of Services and Privacy Policy by Benny Lim
+                    </div>
                     <input type="submit" value='Continue'/>        
                 </form>
             </div>

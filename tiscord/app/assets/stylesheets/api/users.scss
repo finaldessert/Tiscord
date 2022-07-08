@@ -108,7 +108,8 @@ input[type = submit]:hover {
     font-family: 'Source Sans Pro', sans-serif;  
     font-weight: 700;
     color: #eeeff1;
-    margin-left: 170px;
+    align-self: center;
+    margin-bottom: 20px;
 }
 
 
@@ -120,5 +121,14 @@ input[type = submit]:hover {
     margin-left: 48px;
 }
 
+#terms-container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    color: darkgrey;
+}
 
-
+#terms-checkbox {
+    margin-left: 48px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
