@@ -30,8 +30,9 @@ class LoginUser extends React.Component {
                     <label>PASSWORD
                         <input type="password" value={this.state.password} onChange={this.update('password')}/>
                     </label>
-                    <input type="submit" value='Login' />        
-                </form>
+                    <input type="submit" value='Login' />   
+                    <div id='demo-link'>Click here for a demo login!</div>            
+                </form> 
             </div>
         );
     }
