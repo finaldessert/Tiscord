@@ -31,7 +31,7 @@ class CreateUser extends React.Component {
                     <label>Password
                         <input type="password" value={this.state.password} onChange={this.update('password')}/>
                     </label>
-                    <button type="submit">Sign Up</button>        
+                    <input type="submit" value='Continue'/>        
                 </form>
             </div>
         );

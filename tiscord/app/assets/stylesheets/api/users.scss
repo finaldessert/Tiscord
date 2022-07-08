@@ -11,10 +11,10 @@
     justify-content: center;
 }
 
-#form-border {
-    display: flex;
-    justify-content: center;
-}
+// #form-border {
+//     display: flex;
+//     justify-content: center;
+// }
 
 #login-actual-form {
     background-color: #36383e;
@@ -100,3 +100,12 @@ input[type = submit]:hover {
     justify-content: center;
     flex-direction: column;
 }
+
+#actual-register-form > label {
+    color: #aeb0b5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;   
+    font-size: 12px;
+    margin-left: 48px;
+}
+
