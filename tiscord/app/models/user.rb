@@ -5,6 +5,8 @@ class User < ApplicationRecord
     validates :username, :email, :password_digest, :session_token, presence: true
     validates :username, :email, uniqueness: true
     validates :password, length: { minimum: 6 }, allow_nil: true
+    #remember to add validation for 4 digit integer tag and birth date, as well as migrate columns into
+    #database
 
     after_initialize :ensure_session_token
 
