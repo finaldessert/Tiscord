@@ -2,7 +2,7 @@ class User < ApplicationRecord
 
     attr_reader :password
 
-    has_one :friend_list
+    has_many :friends
 
     validates :username, :email, :password_digest, :session_token, presence: true
     validates :username, :email, uniqueness: true
