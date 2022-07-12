@@ -1,5 +1,5 @@
 class Friend < ApplicationRecord
     belongs_to :user
 
-    validates :username, :email, presence: true, uniqueness: true
+    validates :username, :email, presence: true
 end
