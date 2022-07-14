@@ -21,6 +21,7 @@ class Api::FriendsController < ApplicationController
             flash[:success] = ["Successfully added"]
         else
             render json: ["Error, Friend not found"]
+        end
     end
 
     private
