@@ -15,6 +15,14 @@ class Api::FriendsController < ApplicationController
         end
     end
 
+    def destroy
+        @friend = current_user.friends.find_by(friend_params)
+        if @friend.destroy
+            flash[:success] = ["Successfully added"]
+        else
+            render json: ["Error, Friend not found"]
+    end
+
     private
 
     def friend_params
