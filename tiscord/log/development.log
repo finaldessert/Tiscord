@@ -13859,3 +13859,18 @@ puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
   [1m[36mFriend Destroy (0.2ms)[0m  [1m[31mDELETE FROM "friends" WHERE "friends"."id" = $1[0m  [["id", 6]]
   [1m[35m (53.7ms)[0m  [1m[35mCOMMIT[0m
   [1m[36mFriend Load (0.3ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."user_id" = $1[0m  [["user_id", 1]]
+Started GET "/" for ::1 at 2022-07-18 15:46:06 -0400
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?:
+
+Started POST "/__better_errors/1afc15da01b16c79/variables" for ::1 at 2022-07-18 15:46:08 -0400
+Started GET "/" for ::1 at 2022-07-18 15:46:54 -0400
+  [1m[35m (11.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/finaldessert/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+
+ActiveRecord::PendingMigrationError - Migrations are pending. To resolve this issue, run:
+        bin/rails db:migrate RAILS_ENV=development:
+
+Started POST "/__better_errors/747b088ca1265f13/variables" for ::1 at 2022-07-18 15:46:56 -0400
