@@ -1,11 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
 import { Link } from 'react-router-dom';
-import clouds from './splashsvg/clouds.svg';
-import homeleft from './splashsvg/homeleft.svg';
-import homeright from './splashsvg/homeright.svg';
-import world from '../../../public/world2.png'
-
 
 class Splash extends React.Component {
     constructor(props) {
@@ -16,10 +11,12 @@ class Splash extends React.Component {
     render() {
         let splashbutton; //by creating a JS object we can choose what renders depending on conditions we set
         let registerbutton;
-
-        if(!this.props.LoggedIn) {
+        
+        if(!this.props.loggedIn) {
             splashbutton = <Link id="landingbutton" to='/login'>Login</Link>
             registerbutton = <Link id='registerbutton' to='/register'>Sign Up</Link> 
+        } else {
+            splashbutton = <Link id="logged-in-landing-button" to='/login'>Open App</Link>
         }
 
         return(
