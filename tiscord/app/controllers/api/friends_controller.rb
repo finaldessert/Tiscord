@@ -16,7 +16,7 @@ class Api::FriendsController < ApplicationController
     end
 
     def destroy
-        @friend = current_user.friends.find_by(friend_params)
+        @friend = current_user.friends.find_by(params[:friend][:username])
         if @friend.destroy
             flash[:success] = ["Successfully added"]
         else
@@ -27,6 +27,6 @@ class Api::FriendsController < ApplicationController
     private
 
     def friend_params
-        params.require(:friend).permit(:username, :email)
+        params.require(:friend).permit(:username, :email, :user_info)
     end
 end
