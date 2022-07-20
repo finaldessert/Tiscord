@@ -4,7 +4,7 @@ import { getfriends } from '../../actions/friends_actions'
 
 const mapStateToProps = state => {
   return {
-    loggedIn: Boolean(state.session.id)
+    user_id: state.session.id
   }
 }
 

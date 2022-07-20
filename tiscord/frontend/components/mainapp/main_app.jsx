@@ -6,7 +6,7 @@ class MainApp extends React.Component {
     }
 
     componentDidMount() {
-        this.props.getFriends();
+        this.props.getFriends(this.props.user_id);
     }
 
     render() {
