@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import MainApp from './main_app';
-import { logout } from '../../actions/sessions_actions';
+import { getfriends } from '../../actions/friends_actions'
 
 const mapStateToProps = state => {
   return {
@@ -10,7 +10,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    logout: () => dispatch(logout())
+    getfriends: () => dispatch(getfriends())
   }
 }
 
