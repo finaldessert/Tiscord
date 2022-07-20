@@ -16,7 +16,7 @@ class Splash extends React.Component {
             splashbutton = <Link id="landingbutton" to='/login'>Login</Link>
             registerbutton = <Link id='registerbutton' to='/register'>Sign Up</Link> 
         } else {
-            splashbutton = <Link id="logged-in-landing-button" to='/login'>Open App</Link>
+            splashbutton = <Link id="logged-in-landing-button" to='/app'>Open App</Link>
         }
 
         return(

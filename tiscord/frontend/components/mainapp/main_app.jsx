@@ -5,5 +5,14 @@ class MainApp extends React.Component {
         super(props);
     }
 
+    render() {
 
+        return (
+            <div id='main-app'>
+                Application
+            </div>
+        )
+    }
 }
+
+export default MainApp;
