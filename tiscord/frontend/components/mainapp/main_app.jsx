@@ -5,11 +5,17 @@ class MainApp extends React.Component {
         super(props);
     }
 
+    componentDidMount() {
+        this.props.getFriends();
+    }
+
     render() {
 
         return (
             <div id='main-app'>
-                Application
+                <div id='friends-list'>
+
+                </div>
             </div>
         )
     }

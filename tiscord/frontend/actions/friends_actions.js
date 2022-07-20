@@ -8,8 +8,8 @@ export const receiveFriends = friends => ({
     friends
 });
 
-export const getfriends = friends => dispatch => (
-    FriendUtil.getfriends(friends)
+export const getfriends = user_id => dispatch => (
+    FriendUtil.getfriends(user_id)
         .then(friends => dispatch(receiveFriends(friends))),
             err => dispatch(receiveSessionErrors(err.response))
 );

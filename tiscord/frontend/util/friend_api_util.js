@@ -1,8 +1,8 @@
-export const getfriends = friends => (
+export const getfriends = user_id => (
     $.ajax({
         method:'GET',
         url:'/api/friends',
-        data: { friends }
+        data: { user_id }
     })
 )
 
