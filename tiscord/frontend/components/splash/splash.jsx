@@ -30,11 +30,11 @@ class Splash extends React.Component {
                                 </Link>
                             </div>
                         <ul id='nav'>
-                            <li><a href="google.com">About the Dev</a></li>
-                            <li><a href="google.com">Safety</a></li>
-                            <li><a href="google.com">Support</a></li>
-                            <li><a href="google.com">Blog</a></li>
-                            <li><a href="google.com">my Portfolio</a></li>
+                            <li><a href="/">About the Dev</a></li>
+                            <li><a href="/">Safety</a></li>
+                            <li><a href="/">Support</a></li>
+                            <li><a href="/">Blog</a></li>
+                            <li><a href="/">my Portfolio</a></li>
                         </ul>
                         <div id='button-container'>
                             {splashbutton}
