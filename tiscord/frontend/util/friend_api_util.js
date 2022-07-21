@@ -6,3 +6,6 @@ export const getfriends = user_id => (
     })
 )
 
+export const addfriend = user_id => (
+    $
+)

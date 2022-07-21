@@ -7,11 +7,17 @@ class Api::FriendsController < ApplicationController
     end
 
     def create
-        @friend = current_user.friends.build(friend_params)
-        if @friend.save
-            flash[:success] = ["Successfully added"]
+        @user = User.find_by(params[:friend][:username])
+
+        if @user
+            @friend = current_user.friends.build(username: @user.username, email: @user.email)
+            if @friend.save
+                flash[:success] = ["Successfully added"]
+            else
+                render json: ["Error, Try again later"]
+            end
         else
-            render json: ["Error, Try again later"]
+            render json: ["User not found"]
         end
     end
 
