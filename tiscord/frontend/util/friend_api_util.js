@@ -6,6 +6,10 @@ export const getfriends = user_id => (
     })
 )
 
-export const addfriend = user_id => (
-    $
+export const addfriend = friend => (
+    $.ajax({
+        method:'POST',
+        url:'/api/friends',
+        data: { friend }
+    })
 )
