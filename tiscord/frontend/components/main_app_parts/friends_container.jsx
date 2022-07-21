@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import MainApp from './main_app';
+import FriendsList from './friends';
 import { getfriends } from '../../actions/friends_actions'
 
 const mapStateToProps = state => {
@@ -15,4 +15,4 @@ const mapDispatchToProps = dispatch => {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(MainApp);
+export default connect(mapStateToProps, mapDispatchToProps)(FriendsList);
