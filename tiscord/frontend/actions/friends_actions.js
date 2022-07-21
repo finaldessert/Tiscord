@@ -13,3 +13,10 @@ export const getfriends = user_id => dispatch => (
         .then(friends => dispatch(receiveFriends(friends))),
             err => dispatch(receiveSessionErrors(err.response))
 );
+
+export const addfriend = friend => dispatch => (
+    FriendUtil.addfriend(friend)
+        .then(friend => dispatch(receiveFriends(friend.user_id))),
+            err => dispatch(receiveSessionErrors(err.response))
+)
+
