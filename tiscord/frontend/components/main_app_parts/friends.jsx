@@ -1,4 +1,5 @@
 import React from "react";
+import UserLink from "./user_link";
 
 class FriendsList extends React.Component {
     constructor(props) {
@@ -15,10 +16,7 @@ class FriendsList extends React.Component {
             <div id='friends-list-container'>
                     {this.props.friendslist.map(friend => {
                         return (
-                            <div id='friend-column'>
-                                <il>{friend.username}</il>
-                                <il>{friend.email}</il>
-                            </div>
+                           <UserLink />
                         )
                     })}
             </div>
