@@ -1,18 +1,16 @@
 import React from "react";
+import FriendsList from "../main_app_parts/friends";
 
 class MainApp extends React.Component {
     constructor(props) {
         super(props);
     }
 
-    componentDidMount() {
-        this.props.getFriends(this.props.user_id);
-    }
-
     render() {
 
         return (
             <div id='main-app'>
+                <FriendsList />
             </div>
         )
     }

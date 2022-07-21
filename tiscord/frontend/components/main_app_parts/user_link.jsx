@@ -9,8 +9,7 @@ class UserLink extends React.Component {
 
         return (
             <div id='user-link'>
-                <il>{friend.username}</il>
-                <il>{friend.email}</il>
+                <il>{this.props.username}</il>
             </div>
         )
     }
