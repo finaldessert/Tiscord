@@ -12,8 +12,7 @@ class FriendsList extends React.Component {
     render() {
 
         return (
-            <div id='main-app'>
-                <div id='friends-list-container'>
+            <div id='friends-list-container'>
                     {this.props.friendslist.map(friend => {
                         return (
                             <div id='friend-column'>
@@ -22,7 +21,6 @@ class FriendsList extends React.Component {
                             </div>
                         )
                     })}
-                </div>
             </div>
         )
     }
