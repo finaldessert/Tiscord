@@ -20,3 +20,9 @@ export const addfriend = friend => dispatch => (
             err => dispatch(receiveSessionErrors(err.response))
 );
 
+export const deletefriend = friend => dispatch => (
+    FriendUtil.deletefriend(friend.id)
+        .then(friend => dispatch(receiveFriends(friend.user_id))),
+            err => dispatch(receiveSessionErrors(err.response))
+);
+
