@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import FriendsList from './friends';
-import { getfriends } from '../../actions/friends_actions'
+import { getfriends, addfriend } from '../../actions/friends_actions'
 
 const mapStateToProps = state => {
   return {
@@ -11,7 +11,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    getfriends: () => dispatch(getfriends())
+    getfriends: () => dispatch(getfriends()),
+    addfriend: () => dispatch(addfriend(friend_id))
   }
 }
 

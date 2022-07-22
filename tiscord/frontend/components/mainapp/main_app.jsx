@@ -1,5 +1,6 @@
 import React from "react";
 import FriendsList from "../main_app_parts/friends";
+import UserLink from "../main_app_parts/user_link";
 
 class MainApp extends React.Component {
     constructor(props) {
@@ -11,6 +12,7 @@ class MainApp extends React.Component {
         return (
             <div id='main-app'>
                 <FriendsList />
+                <UserLink /> 
             </div>
         )
     }

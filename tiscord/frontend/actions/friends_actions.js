@@ -18,5 +18,5 @@ export const addfriend = friend => dispatch => (
     FriendUtil.addfriend(friend)
         .then(friend => dispatch(receiveFriends(friend.user_id))),
             err => dispatch(receiveSessionErrors(err.response))
-)
+);
 
