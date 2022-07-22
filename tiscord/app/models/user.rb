@@ -1,5 +1,4 @@
 class User < ApplicationRecord
-    mount_uploaders :avatars, AvatarUploader
     attr_reader :password
 
     has_many :friends
