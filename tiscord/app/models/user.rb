@@ -1,13 +1,18 @@
 class User < ApplicationRecord
     attr_reader :password
 
-    has_many :friends
-
     validates :username, :email, :password_digest, :session_token, presence: true
     validates :username, :email, uniqueness: true
     validates :password, length: { minimum: 6 }, allow_nil: true
     #remember to add validation for 4 digit integer tag and birth date, as well as migrate columns into
     #database
+    has_many :friends,
+        foreign_key: :friend_id,
+        class_name: :Friend
+    
+    has_one_attached :avatar
+
+    has_one_attached :coverphoto
 
     after_initialize :ensure_session_token
 
