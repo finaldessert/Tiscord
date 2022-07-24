@@ -4,6 +4,7 @@ class User < ApplicationRecord
     validates :username, :email, :password_digest, :session_token, presence: true
     validates :username, :email, uniqueness: true
     validates :password, length: { minimum: 6 }, allow_nil: true
+    validates :tag, uniqueness: true, presence: true, length: { is: 4}
     #remember to add validation for 4 digit integer tag and birth date, as well as migrate columns into
     #database
     has_many :friends,
